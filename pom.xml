@@ -12,6 +12,11 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.6</java.version>
     </properties>
+    <scm>
+      <connection>scm:git:git@github.com:fatshotty/Java-WebSocket.git</connection>
+      <developerConnection>scm:git:git@github.com:fatshotty/Java-WebSocket.git</developerConnection>
+      <url>https://github.com/fatshotty/Java-WebSocket/tree/master</url>
+    </scm>
     <build>
         <plugins>
             <plugin>
@@ -22,6 +27,11 @@
                     <source>${java.version}</source>
                     <target>${java.version}</target>
                 </configuration>
+            </plugin>
+            <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-release-plugin</artifactId>
+              <version>2.3.2</version>
             </plugin>
         </plugins>
     </build>
