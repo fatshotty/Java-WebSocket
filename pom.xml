@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.java_websocket</groupId>
     <artifactId>WebSocket</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>Java WebSocket</name>
     <url>http://java-websocket.org/</url>
@@ -15,8 +16,7 @@
       <connection>scm:git:git@github.com:fatshotty/Java-WebSocket.git</connection>
       <developerConnection>scm:git:git@github.com:fatshotty/Java-WebSocket.git</developerConnection>
       <url>https://github.com/fatshotty/Java-WebSocket/tree/master</url>
-      <tag>HEAD</tag>
-  </scm>
+    </scm>
     <build>
         <plugins>
             <plugin>
