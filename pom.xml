@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.java_websocket</groupId>
     <artifactId>WebSocket</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>Java WebSocket</name>
     <url>http://java-websocket.org/</url>
@@ -15,7 +15,7 @@
       <connection>scm:git:git@github.com:fatshotty/Java-WebSocket.git</connection>
       <developerConnection>scm:git:git@github.com:fatshotty/Java-WebSocket.git</developerConnection>
       <url>https://github.com/fatshotty/Java-WebSocket/tree/master</url>
-      <tag>WebSocket-1.0.0</tag>
+      <tag>HEAD</tag>
   </scm>
     <build>
         <plugins>
